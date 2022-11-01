@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Dancing Script', cursive;
+    background-color: #2a2a2a;
+    margin: 5px;
+}
+.photo-title{
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+.photo-title h1{
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+.photo{
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.photo .photo-item,
+.photo .photo-item-hidden{
+display: none;
+ max-width: 600px;
+ width: 100%;
+}
+.photo .photo-item-visible{
+    display: block;
+    animation: fadeVisibility 0.5s;
+}
+.photo .photo-item img{
+    max-width: 600px;
+    width: 100%;
+    border-radius: 30%;
+}
+.photo .photo-actions{
+display: flex;
+width: 100%;
+justify-content: space-between;
+position: absolute;
+}
+.photo .photo-actions button{
+    border-radius: 5px;
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2a2a2a;
+    cursor: pointer;
+ 
+}
+.photo .photo-actions button:hover{
+    background-color: #fff;
+    color: #2a2a2a;
+}
+.photo .photo-actions button:focus{
+    background-color: #fff;
+    color: #2a2a2a;
+}
+@keyframes fadeVisibility{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
