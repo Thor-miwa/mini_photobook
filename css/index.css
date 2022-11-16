@@ -17,6 +17,11 @@ html, body{
     color: #fff;
     font-style: italic;
 }
+h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
 .photo{
     max-width: 600px;
     margin: 0 auto;
