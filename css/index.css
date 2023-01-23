@@ -15,7 +15,7 @@ html, body{
     margin: 0 auto;
     
 }
-.photo-title h1{
+.photo-title {
     text-align: center;
     color: #fff;
     font-style: italic;
